@@ -1,0 +1,29 @@
+GET http://localhost:3000/tasks?sort=oldest
+
+###
+
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Express 서버 구축하기",
+  "description": "Express를 할용한 POST"
+}
+
+###
+
+GET http://localhost:3000/tasks/5
+
+###
+
+PATCH http://localhost:3000/tasks/6
+Content-Type: application/json
+
+{
+  "title": "Express 서버 구축 할랑가 말랑가?"
+}
+
+###
+DELETE http://localhost:3000/tasks/6
+
+
