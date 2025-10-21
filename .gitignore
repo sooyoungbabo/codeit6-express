@@ -1,3 +1,5 @@
 node_modules/
+old/
 .prettierrc
+.env
 task.http

@@ -6,24 +6,24 @@ POST http://localhost:3000/tasks
 Content-Type: application/json
 
 {
-  "title": "Express 서버 구축하기",
-  "description": "Express를 할용한 POST"
+  "title": "Express로 MongoDB 사용하기",
+  "description": "환경변수 사용하기 실습"
 }
 
 ###
 
-GET http://localhost:3000/tasks/5
+GET http://localhost:3000/tasks/68f715f079817bbab15c693f
 
 ###
 
-PATCH http://localhost:3000/tasks/6
+PATCH http://localhost:3000/tasks/68f715f079817bbab15c693f
 Content-Type: application/json
 
 {
-  "title": "Express 서버 구축 할랑가 말랑가?"
+  "title": "연습이 빨센가 아닌가?"
 }
 
 ###
-DELETE http://localhost:3000/tasks/6
+DELETE http://localhost:3000/tasks/68f715f079817bbab15c693f
 
 
